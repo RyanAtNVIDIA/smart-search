@@ -90,31 +90,40 @@ This project aims to help educate developers on how to build a smart document se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Below are instructions to set up the environment using Docker
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Docker - The container requires both Docker CE v19.03+ and nvidia-container-toolkit installed.
+
+* Download and install Docker
+```sh
+curl https://get.docker.com | sh
+```
+  
+  * Install Latest NVIDIA Docker. This is an example for Ubuntu install
   ```sh
-  npm install npm@latest -g
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+curl -s -L https://nvidia.github.io/libnvidia-container/experimental/$distribution/libnvidia-container-experimental.list | sudo tee /etc/apt/sources.list.d/libnvidia-container-experimental.list
+sudo apt-get update
+sudo apt-get install -y nvidia-docker2
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/github_username/smart-search.git
    ```
-3. Install NPM packages
+2. Building the container using the included script
    ```sh
-   npm install
+   ./create_container.sh
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Launch the container
+   ```sh
+   ./launch.sh
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -135,10 +144,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Initial environment setup
+- [x] Initial example notebook
+- [ ] Advanced workflows
+    - [ ] Databasing Source Text
+    - [ ] Databasing Embeddings
+    - [ ] Using FAISS
+    - [ ] Optimizing using Triton
 
 See the [open issues](https://github.com/RyanAtNVIDIA/smart-search/issues) for a full list of proposed features (and known issues).
 
