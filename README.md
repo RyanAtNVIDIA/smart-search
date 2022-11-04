@@ -12,7 +12,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![APACHE License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -167,7 +167,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the APACHE 2.0 License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,7 +194,6 @@ Project Link: [https://github.com/RyanAtNVIDIA/smart-search](https://github.com/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/RyanAtNVIDIA/smart-search.svg?style=for-the-badge
@@ -205,8 +204,8 @@ Project Link: [https://github.com/RyanAtNVIDIA/smart-search](https://github.com/
 [stars-url]: https://github.com/RyanAtNVIDIA/smart-search/stargazers
 [issues-shield]: https://img.shields.io/github/issues/RyanAtNVIDIA/smart-search.svg?style=for-the-badge
 [issues-url]: https://github.com/RyanAtNVIDIA/smart-search/issues
-[license-shield]: https://img.shields.io/github/license/RyanAtNVIDIA/smart-search.svg?style=for-the-badge
-[license-url]: https://github.com/RyanAtNVIDIA/smart-search/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/badge/license-Apache--2.0-blue?style=for-the-badg
+[license-url]: https://github.com/RyanAtNVIDIA/smart-search/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ryansimpson1620/
 [Made-withJupyter]: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
