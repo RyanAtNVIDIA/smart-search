@@ -132,8 +132,8 @@ sudo apt-get install -y nvidia-docker2
 ### Setup
 For the demo code to work the example dataset must be downloaded, extracted, and parsed. Several notebooks have been created to complete this task for you.
 
-1. Downloading the Enron dsataset can be completed by running the notebook file <b>gather_enron_dataset.ipynb</b?
-2. Extracting the email messages can be accomplished by running the <b>parse_enron_data.ipynb</b>
+1. Downloading the Enron dsataset can be completed by running the notebook file <a href='gather_enron_dataset.ipynb'>gather_enron_dataset.ipynb </a>
+2. Extracting the email messages can be accomplished by running the <a href='parse_enron_data.ipynb'>parse_enron_data.ipynb</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
